@@ -155,42 +155,41 @@ border-radius: 15px;}
 }
 
 .tab-contents ul li {
-
     list-style: none;
     margin: 10px 0;
-
 }
 
 .tab-contents ul li span{
     color: #b54769;
     font-size: 14px;
-
 }
 
 .tab-contents {
-
     display: none;
 }
 
 .tab-contents.active-tab {
-
     display: block;
 }
 
 /*----------------Servies-------------*/
 
 #services {
-
-     padding: 30px 0;
+    padding: 30px 0;
 }
 
 .services-list{
-
-        display: grid;
-        /* grid-template-columns: repeat(auto-fit,minmax(250px, 1fr)) ; */
-        grid-template-columns: repeat(3, 1fr) ;
-        grid-gap: 40px;
-        margin-top: 50px;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit,minmax(250px, 1fr)) ; */
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+@media (max-width: 768px) {
+    .services-list {
+        grid-template-columns: 1fr; /* Single column */
+        gap: 20px; /* Smaller gap for mobile */
+    }
 }
 
 .services-list div {
@@ -203,19 +202,14 @@ border-radius: 15px;}
 }
 
 .services-list div i {
-
-
     font-size : 60px;
     margin-bottom: 30px;
-    
 }
 
 .services-list div h2 {
-
     font-size : 40px;
     font-weight: 500;
     margin-bottom: 15px;
-    
 }
 
 .services-list div a {
@@ -282,7 +276,6 @@ border-radius: 15px;}
 /***************Portfolio*******************/
 
 #portfolio {
-
     padding: 50px 0;
 }
 
@@ -315,13 +308,11 @@ border-radius: 15px;}
 
 }
 .work img{
-    
     width: 100%;
     height: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
-
 }
 
 .layer{
@@ -346,11 +337,6 @@ border-radius: 15px;}
     text-align:justify;
 }
 
-/* .layer h3 {
-    font-weight: 500;
-    margin-bottom: 20px;
-} */
-
 .layer a {
     margin-top: 10px;
     color: #ff004f;
@@ -370,9 +356,7 @@ border-radius: 15px;}
 }
 
 .work:hover .layer{
-
     height: 100%;
-
 }
 
 .btn{
@@ -396,7 +380,6 @@ border-radius: 15px;}
 
 .contact-left{
     flex-basis: 35%;
-
 }
 
 .contact-left p i{
@@ -420,15 +403,12 @@ border-radius: 15px;}
 
 
 .social-icons a:hover{
-
     color:#ff004f;
     transform: translateY(-5px)
-
 }
 
 .contact-left p {
     margin-top: 30px;
-
 }
 
 .contact-right{
@@ -438,7 +418,6 @@ border-radius: 15px;}
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
-
 }
 
 .contact-right form{
@@ -446,7 +425,6 @@ border-radius: 15px;}
 }
 
 form input, form textarea{
-
     width: 100%;
     border: 0;
     outline: none;
@@ -459,27 +437,22 @@ form input, form textarea{
 }
 
 form .btn2{
-
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
     cursor: pointer;
-
 }
 
 .copyright{
-
-       width: 100%;
-       text-align: center;
-       padding: 25px 0;
-       background: #262626; 
-       font-weight: 300;
-       margin-top: 20px;
-
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626; 
+    font-weight: 300;
+    margin-top: 20px;
 }
 
 .copyright i {
-
     color: aliceblue;
 }
 
@@ -498,11 +471,11 @@ nav .fa-solid{
    .header-text{
     margin-top: 100%;
     font-size: 16px;
-   } 
+} 
 
-   .header-text h1{
+.header-text h1{
     font-size: 30px;
-   } 
+} 
 
 
     nav .fa-solid{
@@ -588,18 +561,12 @@ nav .fa-solid{
     }
     
     .layer a {
-
- 
         font-size: 15px;
         line-height: 15px;
-
         margin-top: 10px;
         width: 30px;
         height: 30px;
         text-align: center;
-      
-     
-    
     }
     
     
@@ -609,10 +576,6 @@ nav .fa-solid{
         border-radius: 3px;
     
     }
-
-
-
-
 }
 
 /********My addition**************/
