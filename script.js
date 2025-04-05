@@ -31,8 +31,7 @@ var tablinks = document.getElementsByClassName("tab-links")
         "Conversational AI & Chatbot Development: Creating intelligent assistants and virtual agents.",
         "LLM Fine-Tuning & Deployment: Customizing and deploying Large Language Models (LLMs).",
         "Text Summarization & Sentiment Analysis: Extracting insights from textual data.",
-        "Document Automation & RFP/Bid Automation: AI-powered proposal generation & document processing.",
-        "Text-to-Image & Text-to-Code AI Solutions: Implementing generative AI for creative automation.",
+        "Document Automation & RFP/Bid Automation: AI-powered proposal generation & document processing."
     ],
     'mlops-ai': [
         "End-to-End MLOps Pipelines – Automating model training, deployment, and monitoring.",
